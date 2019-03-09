@@ -192,6 +192,12 @@ public class ParsersITest extends IntegrationTestWithJenkinsPerSuite {
         shouldFindIssuesOfTool(3, new XmlLint(), "xmllint.txt");
     }
 
+    /** Runs the XML Lint parser on an output file that contains 3 issues. */
+    @Test
+    public void shouldFindAllXmlReportIssues() {
+        shouldFindIssuesOfTool(2, new XmlLint(), "report.xml");
+    }
+
     /** Runs the zptlint parser on an output file that contains 2 issues. */
     @Test
     public void shouldFindAllZptLintStyleIssues() {

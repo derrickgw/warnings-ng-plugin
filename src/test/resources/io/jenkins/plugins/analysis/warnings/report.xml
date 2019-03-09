@@ -1,0 +1,32 @@
+<issues>
+    <issue>
+        <category>Category 1</category>
+        <type>Type 1</type>
+        <severity>WARNING_LOW</severity>
+        <message>Message 1</message>
+        <lineStart>0</lineStart>
+        <lineEnd>0</lineEnd>
+        <columnStart>0</columnStart>
+        <columnEnd>0</columnEnd>
+        <lineRanges/>
+        <description>Description 1</description>
+        <moduleName>Module 1</moduleName>
+        <packageName>-</packageName>
+        <fileName>-</fileName>
+    </issue>
+    <issue>
+        <category>Category 2</category>
+        <type>Type 2</type>
+        <severity>WARNING_HIGH</severity>
+        <message>Message 2</message>
+        <lineStart>0</lineStart>
+        <lineEnd>0</lineEnd>
+        <columnStart>0</columnStart>
+        <columnEnd>0</columnEnd>
+        <lineRanges/>
+        <description>Description 2</description>
+        <moduleName>Module 2</moduleName>
+        <packageName>-</packageName>
+        <fileName>-</fileName>
+    </issue>
+</issues>
